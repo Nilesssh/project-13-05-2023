@@ -43,5 +43,6 @@ function concatenateArray() {
     { id: 6, name: "keshav", age: "12", marks: 55 },
     { id: 7, name: "narayan", age: "16", marks: 39 },
   ];
-  console.log([...arr,...arr1]);
+  arr = [...arr,...arr1];
+  console.log(arr);
 }
